@@ -12,6 +12,10 @@
 html{
     font-size: 62%;
 }
+body{
+  
+
+}
 
 
 *,*:after,
@@ -28,7 +32,9 @@ img{
     width: 80%;
     margin: 0 auto;
 }
-
+.tc{
+    text-align: center;
+}
 
 
 .section-head{
@@ -116,7 +122,71 @@ img{
     margin-top: 3px;
     margin: 3px;
 }
+
+
+
+
+/* Section-option */
+
 .section-option{
+    height: 100%;
+    padding-top: 10rem;
+    
+
+}
+.title-option{
+    color: var(--color-marca);
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.container-option{
+    display: flex;
+    flex-direction: column;
+    
+}
+@media ( min-width: 768px){
+    .container-option{
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+.option-left{
+    width: 100%
+}
+.option-right{
+    width: 100%;
+}
+.contain-text{
+    display: flex;
+    
+    
+}
+.icon{
+    height: 7em;
+    width: 5rem;
+    padding: .3rem;
+      
+}
+.img-option{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.text{
+    width: 100%;
+    height: 12rem;
+    padding: 0 2rem;
+    color: var(--primer-color);
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+
+/* .section-option{
     height: 100%;
     margin: 10rem;
     display: flex;
@@ -191,7 +261,235 @@ img{
     li{
         width: 80%;
     }
+} */
+/* .section-option{
+    height: 100%;
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+@media(max-width: 768px){
+    .section-option{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.title-option{
+    text-align: center;
+    font-size: 3rem;
+    color: var( --color-marca )
+}
+.container-option{
+    display: flex;
+    
+}
+@media (max-width: 768px){
+    .container-option{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.op-container{
+    width: 50%;
+    font-family:'Trebuchet MS','Gill Sans',   sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    
+}
+
+
+.ul{
+   
+    list-style-image: url('/images/points.png');
+}
+@media (max-width: 768px){
+    .ul{
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        list-style: none;
+    }
+}
+
+
+.title-list{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.li{
+    color: var(--primer-color);
+    list-style-position: inside;
+    padding-bottom: 2rem;
+    width: 100%;
+    
+    
+}
+@media (max-width: 768px){
+    li{
+        width: 80%;
+    }
+} */
+/* .section-option{
+    height: 100%;
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 768px){
+    .section-option{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.title-option{
+    text-align: center;
+    font-size: 3rem;
+    color: var( --color-marca )
+}
+.container-option{
+    display: flex;
+    
+}
+@media (max-width: 768px){
+    .container-option{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.op-container{
+    width: 50%;
+    font-family:'Trebuchet MS','Gill Sans',   sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    
+}
+
+
+.ul{
+   
+    list-style-image: url('/images/points.png');
+}
+@media (max-width: 768px){
+    .ul{
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        list-style: none;
+    }
+}
+
+
+.title-list{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.li{
+    color: var(--primer-color);
+    list-style-position: inside;
+    padding-bottom: 2rem;
+    width: 100%;
+    
+    
+}
+@media (max-width: 768px){
+    li{
+        width: 80%;
+    }
+} */
+/* .section-option{
+    height: 100%;
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 768px){
+    .section-option{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.title-option{
+    text-align: center;
+    font-size: 3rem;
+    color: var( --color-marca )
+}
+.container-option{
+    display: flex;
+    
+}
+@media (max-width: 768px){
+    .container-option{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.op-container{
+    width: 50%;
+    font-family:'Trebuchet MS','Gill Sans',   sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    
+}
+
+
+.ul{
+   
+    list-style-image: url('/images/points.png');
+}
+@media (max-width: 768px){
+    .ul{
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        list-style: none;
+    }
+}
+
+
+.title-list{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.li{
+    color: var(--primer-color);
+    list-style-position: inside;
+    padding-bottom: 2rem;
+    width: 100%;
+    
+    
+}
+@media (max-width: 768px){
+    li{
+        width: 80%;
+    }
+} */
 
 
 .section-roadmap{
