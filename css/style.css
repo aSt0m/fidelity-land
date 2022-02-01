@@ -142,7 +142,7 @@ img{
     background: #7D7D7D;
 }
 .btn:after{
-    content: url(/images/outline_play_circle_filled_white_24dp.png);
+    content: url(../images/outline_play_circle_filled_white_24dp.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -462,6 +462,7 @@ img{
     overflow: hidden;
 
 }
+
 .title-presentation{
     margin: 4rem 0;
     padding-top: 8rem;
