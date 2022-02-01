@@ -3,7 +3,7 @@
 :root{
     --primer-color: #7D7D7D;
     --segundo-color: #454545;
-    --btn: rgb(64, 247, 73);
+    --btn: #09ff15;
     --color-marca: #13A89E;
 }
 
@@ -51,7 +51,7 @@ img{
     background: url( ../images/Banner_Movil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:right ;
+    background-position:80% ;
 }
 @media ( min-width: 768px){
     .header{
@@ -112,11 +112,13 @@ img{
     font-size: 2.2rem;
     font-family:Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
     text-align: center;
     color: #fff;
     width: 24rem;
     height: 6rem;
     background: var(--btn);
+    border: none;
     border-radius: 5rem;
     margin: 4rem auto;
 
@@ -132,7 +134,7 @@ img{
 }
 .btn:active{
     background: #2f312f;
-    
+    color: #7D7D7D;
   
 
 }
