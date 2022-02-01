@@ -455,7 +455,7 @@ img{
 .section-tutorial{
     background: var( --primer-color );
     height: 100%;
-    padding-top: 8rem;
+    padding: 8rem 0;
 
 }
 .container-tutorial{
@@ -489,7 +489,7 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    margin-bottom: 6rem;
 }
 @media (max-width: 768px){
     .container-presentations{
@@ -501,7 +501,11 @@ img{
 .img-business{
     height: 14rem;
     margin: 3rem;
+    border-radius: 1rem;
+
+    
 }
+
 
 .footer{
     height: 100%;
