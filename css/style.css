@@ -3,7 +3,7 @@
 :root{
     --primer-color: #7D7D7D;
     --segundo-color: #454545;
-    --btn: #09ff15;
+    --btn: rgb(64, 247, 73);
     --color-marca: #13A89E;
 }
 
@@ -46,22 +46,20 @@ img{
     height: 25vh;
     background: var(--primer-color)
 }
-.header{
-    height: 125vh;
-    background: url(../images/Banner_PC.jpg );
+.header{ 
+    height: 100%;
+    background: url( ../images/Banner_Movil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: center bottom; */
-    background-position-y:  bottom 32px;;
-    
+    background-position:right ;
 }
-@media ( max-width: 768px){
+@media ( min-width: 768px){
     .header{
-        height: 100%;
-        background: url( ../images/Banner_Movil.jpg);
+        height: 125vh;
+        background: url(../images/Banner_PC.jpg );
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center bottom; 
     }
 }
 .container-title{
@@ -124,16 +122,20 @@ img{
 
 }
 .btn:hover{
-    background: #42e24a;
     box-shadow: inset(5px,3px,3px);
     cursor: pointer;
     transition: 1s linear;
     border-radius: 50px;
-  
-    box-shadow: inset 20px 20px 60px #3adb3a,
-            inset -20px -20px 60px #6caf66;
+    
+    box-shadow: inset 20px 20px 60px var(--btn),
+    inset -20px -20px 60px var(--color-marca);
 }
+.btn:active{
+    background: #2f312f;
+    
+  
 
+}
 .btn-inactive{
     background: #7D7D7D;
 }
@@ -142,6 +144,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+ 
 }
 
 
