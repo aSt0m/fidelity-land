@@ -55,7 +55,7 @@ img{
 }
 @media ( min-width: 768px){
     .header{
-        height: 125vh;
+        height: 135vh;
         background: url(../images/Banner_PC.jpg );
         background-size: cover;
         background-repeat: no-repeat;
